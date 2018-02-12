@@ -19,22 +19,25 @@
                         <Image url="@../image/icons8_Conference_100px.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="18.0" layoutY="200.0" text="School Management System">
+                <Label layoutX="10.0" layoutY="200.0" text="School Management System">
                     <font>
-                        <Font name="System Bold" size="16.0" />
+                        <Font name="Agency FB Bold" size="24.0" />
                     </font>
                 </Label>
-                <Label layoutX="18.0" layoutY="369.0" text="\@CopyRight by khwanchanok" textFill="#0d0d0d" />
+                <Label layoutX="18.0" layoutY="369.0" text="\@CopyRight by Nsr Nasri" textFill="#0d0d0d">
+               <font>
+                  <Font name="Agency FB" size="13.0" />
+               </font></Label>
             </children>
         </Pane>
-        <JFXTextField fx:id="username" labelFloat="true" layoutX="308.0" layoutY="63.0" promptText="username">
+        <JFXTextField fx:id="username" labelFloat="true" layoutX="308.0" layoutY="63.0" promptText="Username" unFocusColor="#00ff11">
             <font>
-                <Font size="15.0" />
+                <Font name="Agency FB Bold" size="16.0" />
             </font>
         </JFXTextField>
-        <JFXPasswordField fx:id="password" labelFloat="true" layoutX="308.0" layoutY="127.0" promptText="password">
+        <JFXPasswordField fx:id="password" labelFloat="true" layoutX="308.0" layoutY="127.0" promptText="Password" unFocusColor="#00ff11">
             <font>
-                <Font size="15.0" />
+                <Font name="Agency FB Bold" size="15.0" />
             </font>
         </JFXPasswordField>
         <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="265.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
@@ -47,14 +50,14 @@
                 <Image url="@../image/icons8_Lock_100px.png" />
             </image>
         </ImageView>
-        <JFXButton fx:id="btnlogin" layoutX="393.0" layoutY="185.0" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #80d8ff;" text="Login" textFill="#1b1b1a">
+        <JFXButton fx:id="btnlogin" layoutX="393.0" layoutY="185.0" onAction="#Login" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #00ff11;" text="Login">
             <font>
-                <Font name="System Bold" size="15.0" />
+                <Font name="Agency FB Bold" size="20.0" />
             </font>
         </JFXButton>
         <Label layoutX="268.0" layoutY="369.0" text="DB Status:" textFill="#141414">
             <font>
-                <Font size="13.0" />
+                <Font name="Agency FB" size="14.0" />
             </font></Label>
         <Label fx:id="dbStatus" layoutX="334.0" layoutY="369.0" prefHeight="17.0" prefWidth="144.0" textFill="#e80909" />
     </children>
